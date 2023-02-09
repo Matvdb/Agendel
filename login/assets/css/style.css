@@ -1,0 +1,77 @@
+/* Template 1 style */
+#template-bg-1 {
+	background-image: url('../../images/template-bg-1.jpg');
+}
+
+/* Template 2 style */
+.sidenav {
+	height: 100%;
+	overflow-x: hidden;
+	padding-top: 20px;
+	background-image: url('../../images/side-nav-bg-1.jpg');
+}
+
+.main {
+	padding: 0px 10px;
+}
+
+/* Template 3 style */
+#template-bg-3 {
+	background-image: url('../../images/template-bg-3.jpg');
+}
+
+/* Welcome page style */
+.bg-image {
+	background-image: url('../../images/home-page-bg.jpg');
+}
+
+/* Template 1 media queries begins */
+@media screen and (min-width:300px) and (max-width: 400px) {
+	.container {
+		width: 100% !important;
+		display: initial;
+	}
+}
+
+/* Template 2 media queries */
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.login-form {
+		margin-top: 10%;
+	}
+}
+
+@media screen and (max-width: 924px) {
+	.login {
+		width: 145px !important;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.main {
+		margin-left: 40%;
+	}
+	.sidenav {
+		width: 40%;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+	}
+	.login-form {
+		margin-top: 80%;
+	}
+}
+
+/* Template 3 media queries */
+@media screen and (min-width:768px) and (max-width: 980px) {
+	.card {
+		width: 50% !important;
+		display: initial;
+	}
+}
